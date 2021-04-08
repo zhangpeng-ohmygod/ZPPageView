@@ -15,6 +15,13 @@
 		183F86AF261E0A92001C4001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183F86AD261E0A92001C4001 /* LaunchScreen.storyboard */; };
 		183F86BA261E0A92001C4001 /* ZPPageView__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86B9261E0A92001C4001 /* ZPPageView__Tests.swift */; };
 		183F86C5261E0A92001C4001 /* ZPPageView__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86C4261E0A92001C4001 /* ZPPageView__UITests.swift */; };
+		183F86DA261E0AAF001C4001 /* ZPPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86D6261E0AAF001C4001 /* ZPPageView.swift */; };
+		183F86DB261E0AAF001C4001 /* ZPPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86D7261E0AAF001C4001 /* ZPPageStyle.swift */; };
+		183F86DC261E0AAF001C4001 /* ZPTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86D8261E0AAF001C4001 /* ZPTitleView.swift */; };
+		183F86DD261E0AAF001C4001 /* ZPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86D9261E0AAF001C4001 /* ZPContentView.swift */; };
+		183F86E3261E0B0B001C4001 /* ZPPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86E2261E0B0B001C4001 /* ZPPageCollectionView.swift */; };
+		183F86E8261E0E1D001C4001 /* ZPPageCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86E7261E0E1C001C4001 /* ZPPageCollectionViewLayout.swift */; };
+		183F86ED261E1934001C4001 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F86EC261E1933001C4001 /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		183F86C0261E0A92001C4001 /* ZPPageView扩展UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZPPageView扩展UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F86C4261E0A92001C4001 /* ZPPageView__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPPageView__UITests.swift; sourceTree = "<group>"; };
 		183F86C6261E0A92001C4001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183F86D6261E0AAF001C4001 /* ZPPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPageView.swift; sourceTree = "<group>"; };
+		183F86D7261E0AAF001C4001 /* ZPPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPageStyle.swift; sourceTree = "<group>"; };
+		183F86D8261E0AAF001C4001 /* ZPTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTitleView.swift; sourceTree = "<group>"; };
+		183F86D9261E0AAF001C4001 /* ZPContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPContentView.swift; sourceTree = "<group>"; };
+		183F86E2261E0B0B001C4001 /* ZPPageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPPageCollectionView.swift; sourceTree = "<group>"; };
+		183F86E7261E0E1C001C4001 /* ZPPageCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPPageCollectionViewLayout.swift; sourceTree = "<group>"; };
+		183F86EC261E1933001C4001 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,11 @@
 		183F86A1261E0A8F001C4001 /* ZPPageView扩展 */ = {
 			isa = PBXGroup;
 			children = (
+				183F86D5261E0AAF001C4001 /* ZPPageView */,
 				183F86A2261E0A8F001C4001 /* AppDelegate.swift */,
 				183F86A4261E0A8F001C4001 /* SceneDelegate.swift */,
 				183F86A6261E0A8F001C4001 /* ViewController.swift */,
+				183F86EC261E1933001C4001 /* UIColor-Extension.swift */,
 				183F86A8261E0A8F001C4001 /* Main.storyboard */,
 				183F86AB261E0A92001C4001 /* Assets.xcassets */,
 				183F86AD261E0A92001C4001 /* LaunchScreen.storyboard */,
@@ -126,6 +142,19 @@
 				183F86C6261E0A92001C4001 /* Info.plist */,
 			);
 			path = "ZPPageView扩展UITests";
+			sourceTree = "<group>";
+		};
+		183F86D5261E0AAF001C4001 /* ZPPageView */ = {
+			isa = PBXGroup;
+			children = (
+				183F86D6261E0AAF001C4001 /* ZPPageView.swift */,
+				183F86D7261E0AAF001C4001 /* ZPPageStyle.swift */,
+				183F86D8261E0AAF001C4001 /* ZPTitleView.swift */,
+				183F86D9261E0AAF001C4001 /* ZPContentView.swift */,
+				183F86E2261E0B0B001C4001 /* ZPPageCollectionView.swift */,
+				183F86E7261E0E1C001C4001 /* ZPPageCollectionViewLayout.swift */,
+			);
+			path = ZPPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F86DD261E0AAF001C4001 /* ZPContentView.swift in Sources */,
+				183F86ED261E1934001C4001 /* UIColor-Extension.swift in Sources */,
+				183F86E8261E0E1D001C4001 /* ZPPageCollectionViewLayout.swift in Sources */,
 				183F86A7261E0A8F001C4001 /* ViewController.swift in Sources */,
+				183F86DA261E0AAF001C4001 /* ZPPageView.swift in Sources */,
+				183F86E3261E0B0B001C4001 /* ZPPageCollectionView.swift in Sources */,
 				183F86A3261E0A8F001C4001 /* AppDelegate.swift in Sources */,
+				183F86DC261E0AAF001C4001 /* ZPTitleView.swift in Sources */,
+				183F86DB261E0AAF001C4001 /* ZPPageStyle.swift in Sources */,
 				183F86A5261E0A8F001C4001 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
